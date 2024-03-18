@@ -6,9 +6,7 @@ The implementation is done using OpenCV and code written in Python & Django.
 The implementation of the project was done by manipulating the recived video in 4 steps:
 * First transformation to the image is a grayscale transformation in order to detect the light intensity of the image. In order to detect only relevant movement I used a gaussian blur to transform the first image.
 
-<p align="center">
-  <img width="200" src="[http://material-bread.org/logo-shadow.svg](https://github.com/Radu-Maris/CameraDetectionSystem/assets/58084616/49009452-0481-408c-8661-fce71809de25)">
-</p>
+![image](https://github.com/Radu-Maris/CameraDetectionSystem/assets/58084616/56341c01-0032-44c5-92ba-9c429f6cd415)
 
 * After that, I generate the difference frame. This is done by comparing the initial image with the current frame from the camera. If there is a difference in light values.
 
